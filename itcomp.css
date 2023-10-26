@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    background-color: black;
+    animation-name: headline;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    animation-iteration-count: infinite;
+    padding-top: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: lightgreen;
+    transition: 500ms;
+}
+a:hover {
+    color: aquamarine;
+    transition: 500ms;
+}
+
+fieldset {
+    margin: auto;
+    width: 75%;
+    align-self: center;
+}
+
+.highlightedtitle {
+    display: inline;
+    color: deepskyblue;
+    transition: 0.5s;
+}
+
+.highlightedtitle:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+pre {
+    font-size: 15px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+p.inlinetxt {
+    display: inline;
+}
+
+p.centered {
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+
+.paramarg {
+    padding-left: 25px; /* Adjust this value as needed */
+}
+
+h2 {
+    font-size: larger;
+    color: bisque;
+}
+
+.history, .services {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+
+.hovertoopen{
+    border-radius: 50%;
+    transition: 400ms;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.hovertoopen:hover{
+    border-radius: 20%;
+    transition: 400ms;
+}
+
+@keyframes headline{
+    0%{color: lavender;}
+    50%{color:lightcyan;}
+    60%{color: lightgrey;}
+    70%{color: lightyellow;}
+    80%{color: blanchedalmond;}
+    100%{color: beige;}
+}
+
+.hovertoshowinfo{
+    border-radius: 10% 0px 0px 10%;
+    transition: 400ms;
+    display: block;
+    margin-right: auto;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+
+}
+
+
+.hovertoshowinfo:hover{
+    border-radius: 20% 0px 0px 20%;
+    transition: 400ms;
+}
+
+.nexttohover {
+    list-style: none;
+    color: black;
+}
+
+.nexttohover li::before {
+    content: "";
+    background-image: url("lightbulbullet.svg");
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+}
+
+.bgwhite{
+    background-color: gray;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    transition: 400ms;
+    color: black;
+    padding-left: 10px;
+}
+
+.bgwhite:hover{
+    background-color: aliceblue;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+    transition: 400ms;
+}
+
+.centeredtable{
+    margin: 0px auto;
+}
+
+.bgiconclr{
+    background-color: #76c2af;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.nonbullet {
+    list-style: none;
+    color: darkslategrey;
+}
+
+.nonbullet li{
+    padding: 5px;
+}
+
+.bgiconclrgreen{
+    background-color: #5f9942;
+    color: aliceblue;
+    display: block;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 30px;
+}

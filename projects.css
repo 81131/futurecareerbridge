@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: aliceblue;
+}
+
+h1{
+    background-color: black;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.sublink{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    align-self: center;
+    margin: 30px;
+    font-family: 'Nova Mono', monospace;
+    font-size: 30px;
+    transition: 0.5s;
+    background-color:#3e3e42;
+    border:none;
+    color:antiquewhite;
+
+}
+.sublink:hover{
+    background-color:#007acc;
+    color: white;
+    transition: 0.5s;
+}
+.subbtn{
+    text-align: center;
+}
+
+.recdownload{
+    border: none ;
+    background-color:#404D49;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 200px;
+    display: block;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: 'Nova Mono', monospace;
+}
+
+.recdownload:hover{
+    border-radius: 12px;
+    background-color:#017bdc;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color:rgb(62, 236, 9);
+    transition: 500ms;
+}
+a:hover{
+    color:aquamarine;
+    transition: 500ms;
+}
+
+
+fieldset{
+    margin: auto;
+    width: 75%;
+    align-self: center;
+
+}
+
+.highlightedtitle{
+    display: inline;
+    color:deepskyblue;
+    transition: 0.5s;
+}
+
+.highlightedtitle:hover{
+    color:red;
+    transition: 0.5s;
+}
+
+pre{
+    font-size: 15px;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+p.inlinetxt{
+    display: inline;
+}
+
+p.centered{
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+
+.paramarg{
+    padding-left: 25px;
+}
+

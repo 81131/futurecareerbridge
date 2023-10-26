@@ -1,7 +1,13 @@
+
 body{
     background-color: black;
     font-family: 'M PLUS Code Latin', sans-serif;
     color: aliceblue;
+}
+
+a{
+    text-decoraiton:none;
+    color:aliceblue;
 }
 
 h1{
